@@ -12,11 +12,9 @@ needed for building siegfried userspace programs
 
 ### GCC
 
+0. Build and install hagen(libc) into (installation directory)
 1. Make another build directory and cd into it
 2. do ``(gcc path)/configure --enable-languages=c,c++ --target=x86_64-siegfried --prefix=(installation folder here) --with-sysroot``
 3. do ``make all-gcc && make all-target-libgcc && make install-gcc && make install-target-libgcc``
 
 
-## Additional notes
-
-* create (installation directory)/sys-root/usr/include if there is an error while building gcc
