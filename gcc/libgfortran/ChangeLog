@@ -1,0 +1,10 @@
+2024-01-07  Jerry DeLisle  <jvdelisle@gcc.gnu.org>
+
+	* io/write.c (namelist_write): If internal_unit precede with space.
+
+
+Copyright (C) 2024 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
