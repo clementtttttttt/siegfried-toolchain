@@ -19,4 +19,4 @@ needed for building siegfried userspace programs
 
 ## Additional notes
 
-* create (installation directory)/usr/include if there is an error while building gcc
+* create (installation directory)/sys-root/usr/include if there is an error while building gcc
